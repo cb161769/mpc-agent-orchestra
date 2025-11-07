@@ -1,0 +1,17 @@
+{
+  "mcp": {
+    "servers": {
+		"jira-server": {
+			"type": "stdio",
+			"command": "uv",
+			"args": [
+				"--directory",
+				"C:\\\\Users\\\\claud\\\\mpc-agent-orchestra\\\\src\\\\jira\\\\",
+				"run",
+				"server.py"
+			]
+		}
+    }
+},
+"files.autoSave": "afterDelay"
+}

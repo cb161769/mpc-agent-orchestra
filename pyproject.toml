@@ -1,0 +1,11 @@
+[project]
+name = "mpc-agent-orchestra"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.72.0",
+    "jira>=3.10.5",
+    "mcp>=1.21.0",
+]
